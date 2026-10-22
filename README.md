@@ -65,3 +65,6 @@ pip install streamlit boto3
 ```
 streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 ```
+
+## 📸 Chatbot Preview
+![Streamlit Chatbot UI](./Screenshot.png)
