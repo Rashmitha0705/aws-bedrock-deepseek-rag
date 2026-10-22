@@ -1,6 +1,6 @@
 # AWS Bedrock DeepSeek-R1 RAG Chatbot
 
-A cloud-native, serverless Retrieval-Augmented Generation (RAG) chatbot built with Python, Streamlit, and **Amazon Bedrock**, featuring **DeepSeek-R1** as the core reasoning model and automated document indexing via **Amazon S3** and **Bedrock Knowledge Bases**.
+A cloud-native, Retrieval-Augmented Generation (RAG) chatbot built with Python, Streamlit, and **Amazon Bedrock**, featuring **DeepSeek-R1** as the core reasoning model and automated document indexing via **Amazon S3** and **Bedrock Knowledge Bases**.
 
 ---
 
