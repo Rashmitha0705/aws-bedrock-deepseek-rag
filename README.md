@@ -6,6 +6,7 @@ A cloud-native, serverless Retrieval-Augmented Generation (RAG) chatbot built wi
 
 ## 🏗️ Architecture Overview
 
+```
 [ User Browser (Streamlit UI) ]
 │ (HTTP / Port 8501)
 ▼
@@ -16,10 +17,11 @@ A cloud-native, serverless Retrieval-Augmented Generation (RAG) chatbot built wi
 └──> 2. Amazon Bedrock Runtime API (client.converse)
 ├── Model: DeepSeek-R1 (us.deepseek.r1-v1:0)
 └── Guardrails: Safety filtering & content moderation
+```
 
 ---
 
-## 🚀 What We Built & Key Features
+## 🚀 What I Built & Key Features
 
 1. **Serverless GenAI Migration:** Architected a pipeline to transition third-party AI workloads onto fully managed cloud infrastructure using Amazon Bedrock.
 2. **Retrieval-Augmented Generation (RAG):** Connected **Amazon S3** (`deepseek-bedrocks`) as the authoritative document repository containing source resumes/technical profiles. Configured **Amazon Bedrock Knowledge Bases** to automatically chunk, embed, and index documents for semantic retrieval.
