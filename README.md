@@ -67,4 +67,4 @@ streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 ```
 
 ## 📸 Chatbot Preview
-![Streamlit Chatbot UI](./Screenshot.png)
+![Streamlit Chatbot UI](https://github.com/Rashmitha0705/aws-bedrock-deepseek-rag/blob/main/Screenshot%202026-10-22%20134929.png)
